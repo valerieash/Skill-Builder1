@@ -70,10 +70,6 @@ public class SkillBuilder1 {
 
 
 
-        // TODO: Calculate and output the wall's area
 
-        // TODO: Calculate and output the amount of paint in gallons needed to paint the wall
-
-        // TODO: Calculate and output the number of 1 gallon cans needed to paint the wall, rounded up to nearest integer
     }
 }
