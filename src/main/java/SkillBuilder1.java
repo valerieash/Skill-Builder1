@@ -31,8 +31,7 @@ public class SkillBuilder1 {
         double roundedDouble = Math.round(spice2 * 100.00) / 100.00;
         System.out.println("And the converted value is " + String.format("%.2f",roundedDouble));
 
-        calcWallPaint();
-        //^ get rid
+
     }
     public static void calcWallPaint() {
         Scanner input = new Scanner(System.in);
@@ -59,7 +58,7 @@ public class SkillBuilder1 {
         System.out.printf("Paint needed: %.2f gallons\n",paintNeeded);
 
         int cansNeeded = (int) Math.ceil(paintNeeded);
-        System.out.println("Cans needed: " + cansNeeded + "(s)");
+        System.out.println("Cans needed: " + cansNeeded + " can(s)");
 
 
 
